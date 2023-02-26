@@ -61,3 +61,6 @@ sys.haptic.runin=13
 sys.haptic.dynamiceffect=true
 sys.haptic.dynamiceffect.richtap=true
 sys.haptic.ignoreWhenCamera=true
+
+# TouchFeature
+ro.vendor.touchfeature.type=43
