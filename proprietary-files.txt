@@ -1,4 +1,4 @@
-# Unpinned blobs from alioth_EEA-user 12 V13.0.9.0.SKHEUXM release-keys
+# Unpinned blobs from alioth_EEA-user 13 RKQ1.211001.001 V14.0.7.0.TKHEUXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -53,8 +53,10 @@ vendor/lib/hw/audio.primary.kona.so
 vendor/lib/vndk/libxlog.so
 vendor/lib/liba2dpoffload.so
 vendor/lib/libaudio_log_utils.so
+vendor/lib/libaudiocloudctrl.so
 vendor/lib/libaudioroute_ext.so
 vendor/lib/libfcsam.so
+vendor/lib/libmmhardware.so
 vendor/lib/libresampler.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 
@@ -407,6 +409,10 @@ vendor/lib64/soundfx/libswgamedap.so
 vendor/lib64/soundfx/libswvqe.so
 
 # Dolby MediaCodecs
+system/lib/libdolbyottcontrol.so
+system/lib/libdovi_omx.so
+system/lib64/libdolbyottcontrol.so
+system/lib64/libdovi_omx.so
 vendor/lib/libstagefright_soft_ac4dec.so
 vendor/lib/libstagefright_soft_ddpdec.so
 vendor/lib/libstagefrightdolby.so
@@ -493,6 +499,7 @@ vendor/etc/sensors/config/sns_rmd.json
 vendor/etc/sensors/config/sns_rotv.json
 vendor/etc/sensors/config/sns_sar_algo.json
 vendor/etc/sensors/config/sns_sar_algo_1.json
+vendor/etc/sensors/config/sns_screen_down.json
 vendor/etc/sensors/config/sns_smd.json
 vendor/etc/sensors/config/sns_tilt.json
 vendor/etc/sensors/config/sns_tilt_sw_disabled.json
@@ -500,6 +507,7 @@ vendor/etc/sensors/config/sns_tilt_to_wake.json
 vendor/etc/sensors/config/sx932x_0.json
 vendor/etc/sensors/config/sx932x_1.json
 vendor/etc/sensors/config/tcs3701.json
+vendor/etc/sensors/calibratedCheck.json
 vendor/etc/sensors/hals.conf
 vendor/etc/sensors/judge_calibrated.json
 vendor/etc/sensors/sensor_diag.cfg
@@ -703,6 +711,7 @@ vendor/firmware/vibrator_firmware_aidl/92_notificationRemove_RTP.bin
 vendor/firmware/vibrator_firmware_aidl/93_notificationCleanall_RTP.bin
 vendor/firmware/vibrator_firmware_aidl/96_nfcCard_RTP.bin
 vendor/firmware/vibrator_firmware_aidl/98_nfcCardSlow_RTP.bin
+vendor/firmware/vibrator_firmware_aidl/99_POCO_RTP.bin
 vendor/firmware/vibrator_firmware_aidl/9_ringTone4_P_RTP.bin
 vendor/firmware/0_click_P_RTP.bin
 vendor/firmware/101_offlineCountdown_RTP.bin
@@ -860,6 +869,7 @@ vendor/firmware/92_notificationRemove_RTP.bin
 vendor/firmware/93_notificationCleanall_RTP.bin
 vendor/firmware/96_nfcCard_RTP.bin
 vendor/firmware/98_nfcCardSlow_RTP.bin
+vendor/firmware/99_POCO_RTP.bin
 vendor/firmware/9_ringTone4_P_RTP.bin
 vendor/firmware/AcousticGuitar_RTP.bin
 vendor/firmware/Atlantis_RTP.bin
