@@ -32,6 +32,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libpiex_shim
 
+# Miuicamera
+$(call inherit-product-if-exists, vendor/xiaomi/camera/products/miuicamera.mk)
+
 # Dolby Support
 TARGET_USES_MIUI_DOLBY := true
 
