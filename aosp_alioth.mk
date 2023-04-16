@@ -14,6 +14,8 @@ $(call inherit-product, vendor/aosp/config/common.mk)
 #Elixir Stuffs
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
+ELIXIR_MAINTAINER := Abrar
+ELIXIR_BUILD_TYPE := OFFICIAL
 
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
