@@ -11,3 +11,5 @@ git clone --depth=1 https://github.com/AbrarNoob/kernel_xiaomi_sm8250-1 -b stagi
 git clone --depth=1 https://github.com/EmanuelCN/zyc_clang-14 prebuilts/clang/host/linux-x86/ZyC-clang
 git clone https://github.com/LineageOS/android_hardware_xiaomi -b lineage-20 hardware/xiaomi
 git clone https://gitlab.com/AbrarNoob/android_vendor_xiaomi_camera vendor/xiaomi/camera
+git clone https://github.com/LineageOS/android_hardware_lineage_compat hardware/lineage/compat
+

@@ -2,3 +2,4 @@ device/xiaomi
 kernel/xiaomi 
 vendor/xiaomi
 hardware/xiaomi
+hardware/lineage/compat
