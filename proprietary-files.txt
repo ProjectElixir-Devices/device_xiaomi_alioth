@@ -1,4 +1,4 @@
-# Unpinned blobs from alioth_EEA-user 13 RKQ1.211001.001 V14.0.7.0.TKHEUXM release-keys
+# Unpinned blobs from alioth_global-user 13 TKQ1.220829.002 V14.0.7.0.TKHMIXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -382,6 +382,10 @@ vendor/etc/init/init.batterysecret.rc
 
 # Display-calibration
 vendor/etc/qdcm_calib_data_xiaomi_38_08_0a_cmd_mode_dsc_dsi_panel.xml
+vendor/etc/default.lm
+vendor/etc/ltm_config_xiaomi_38_08_0a_cmd_mode_dsc_dsi_panel.xml
+vendor/etc/mdss_dsi_k11a_38_08_0a_dsc_cmd_mi.xml
+vendor/etc/tunings.txt
 
 # Dolby Miui
 system/lib/vendor.dolby.hardware.dms@2.0.so
