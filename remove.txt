@@ -4,3 +4,6 @@ vendor/xiaomi
 hardware/xiaomi
 hardware/lineage/compat
 hardware/qcom-caf/sm8250/audio
+hardware/qcom-caf/sm8250/media
+hardware/qcom-caf/sm8250/display
+external/tinycompress
